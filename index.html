@@ -3,18 +3,23 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet"  href="./normalize.css">
-        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet"  href="css/normalize.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>        
     <body>
 
+        <header class="header">
+            <h1 class="title">Wordle</h1>
+        </header>
+        <main>
+
         <div class="word word1">
-            <div class="letter letter1-1"></div>
-            <div class="letter letter1-2"></div>
-            <div class="letter letter1-3"></div>
-            <div class="letter letter1-4"></div>
-            <div class="letter letter1-5"></div>
-            <div class="letter letter1-6"></div>
+            <div class="guessBox guessBox1-1"></div>
+            <div class="guessBox guessBox1-2"></div>
+            <div class="guessBox guessBox1-3"></div>
+            <div class="guessBox guessBox1-4"></div>
+            <div class="guessBox guessBox1-5"></div>
+            <div class="guessBox guessBox1-6"></div>
           </div>
 
 
@@ -53,7 +58,10 @@
               <div class="key" tabindex="0">Backspace</div>
             </div>
           </div>
-          
-        <script src="script.js"></script>
+
+          <div class="result"></div>
+          <button class="button__reload">PLAY AGAIN</button>
+        </main>
+        <script src="js/script.js" type="module"></script>
     </body>
 </html>
