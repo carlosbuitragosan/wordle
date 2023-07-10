@@ -1,5 +1,15 @@
 # Wordle - AWS
 
+
+## Instructions
+
+If you are using the keyboard:
+- Use the arrow keys to navigate through the on-screen keyboard to select letters.
+- Press the Enter key to submit your guess.
+
+
+## Deployment
+
 this challenge was deployed using AWS infrastructure.
 An attempt was made to recreate the infrastructure using terraform. 
 All the infrastructure was created successfuly but I couldn't add the necessary permission for codecommit to access the S3 bucket.
