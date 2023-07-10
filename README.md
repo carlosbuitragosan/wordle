@@ -15,7 +15,7 @@ An attempt was made to recreate the infrastructure using terraform.
 All the infrastructure was created successfuly but I couldn't add the necessary permission for codecommit to access the S3 bucket.
 
 - Code added on AWS *Codecommit* for seamless integration.
-- Created AWS Elastic Beanstalk application on s webserver environment to simplify infrastructure managment. 
+- Created AWS Elastic Beanstalk application on a webserver environment to simplify infrastructure managment. 
 - Created AWS Codepipeline CI/CD pipeline to automate delivery.
 
 
