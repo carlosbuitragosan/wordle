@@ -25,7 +25,7 @@ A webserver environment creates:
 - Security groups
 - S3 bucket
 - Autoscaling groups
-- Runs automatic health checks
+- Runs automated health checks
 
 AWS Codepipeline stores the artifacts created throughout the stages in an S3 bucket to be ready for deployment while AWS Cloudwatch creates events for failed pipelines or stages
 
